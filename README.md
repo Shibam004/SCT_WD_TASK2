@@ -51,6 +51,7 @@ Open `index.html` in your browser.
 
 Developed by [Shibam Karmakar]  
 In collaboration with **SkillCraft Technology**
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/shibam-karmakar-b09423271/)
 
 ---
 
