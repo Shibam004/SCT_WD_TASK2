@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #3a3b5a, #c6b1db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.stopwatch {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stopwatch h1 {
+  font-size: 24px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #101820;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+#startPauseBtn {
+  background: #00ffe0;
+  color: black;
+}
+
+.reset {
+  background: #ff4d4d;
+}
+
+.lap {
+  background: #ffc107;
+  color: black;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.laps {
+  margin-top: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.laps p {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 10px;
+  color: #fff;
+  border-left: 4px solid #00ffe0;
+}
