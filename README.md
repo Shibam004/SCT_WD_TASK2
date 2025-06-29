@@ -1,5 +1,5 @@
 # SCT_WD_TASK2
-# ⏱️ Fabulous Stopwatch Web App
+# ⏱️Stopwatch Web App
 
 A beautifully designed and fully functional **Stopwatch Web Application** built using **HTML**, **CSS**, and **JavaScript**. This stopwatch lets you start, pause, reset, and record lap times — all within a modern, glassmorphic interface.
 
